@@ -1,0 +1,120 @@
+body{
+    margin: 0%;
+    padding-top: 800px ;
+    text-align: center;
+}
+
+#image{
+    width: 250px;
+    height:250px;
+}
+
+#myintro{
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    display: table;
+    width: 100%;
+    height:800px;
+    background:linear-gradient(yellow,lightgreen,skyblue);
+    z-index:8;
+}
+
+.verarangement{
+    display: table-cell;
+    vertical-align:middle;
+}
+
+#myBio{
+    padding:50px ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    color:brown;
+    font-size:26px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.main{
+    list-style: none ;
+    top: 10px; 
+    right: 30px;
+    position:fixed;
+    cursor: pointer;
+    z-index: 10;
+}
+.line{
+    height: 4px;
+    background-color:darkred;
+    width:70px;
+    margin: 6px auto;
+}
+.links{
+    float: left; 
+    padding-top: 9px;
+    padding-bottom:9px ;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+ }
+ .links:hover{
+     background-color:gold ;}
+    #iframecon{
+        width: 100%;
+    }
+#contact{
+    background: deepskyblue;
+}
+.contact2 h3{
+    display: inline;
+    color:rgb(31, 238, 238);
+    font-size: 26px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact2 i{
+    color:maroon;
+}
+#video{
+    background: linear-gradient(lightpink,rgb(248, 129, 129),rgb(250, 210, 136));
+    font-size: 26px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:blue ;
+}
+#inspirations{
+    background: mediumpurple;
+    font-size: 26px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#favoriteactors{
+    color:rgb(129, 129, 238);
+    font-size: 26px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background:midnightblue;
+}
+#favouritedancers{
+    color:rgb(129, 129, 238);
+    font-size: 26px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#apps{
+    background-color: cadetblue;
+}
+#games{
+    background-color: darkmagenta;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.pics{
+    width:300px ;
+    height:300px ;
+    margin: 10px;
+}
+#chatbot{
+    background:linear-gradient(hotpink,pink,orangered);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.bot{
+    margin: 10px
+    ;
+}
